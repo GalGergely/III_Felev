@@ -1,0 +1,18 @@
+repr(x) -> sztringgé konv
+randint(min, max) -> random int
+'a'.upper() == 'A' -> nagybetuve alakit
+is_prime(6) -> prim szam e
+divisors(n) -> n osztoi
+n(e, digits=1001)
+factorial(1000)
+factor(p2) -> prímtényezosen felbont, polinomoknal gyoktenyezos alakra bontas
+p2.roots() -> megkeresi a polinom gyoket, megoldja az egyenletet
+GF(moduló, prim szamnak kell lenni)(szám)
+p = GF(7)['x'](5*x^4 + x^3 + 4*x^2 + 6) -> pelda
+p = RR['x'].lagrange_polynomial([(0, 3), (1, 3), (4, 7), (-1, 0)]) -> Interpoláljon 3-adfokú valós együtthatós polinomot, amely átmegy a (0, 3), (1, 3), (4, 7), (-1, 0) pontokon
+
+ZZ -- egész
+RR -- valós
+QQ -- racionális
+CC -- komplex   
+NN -- természetes
